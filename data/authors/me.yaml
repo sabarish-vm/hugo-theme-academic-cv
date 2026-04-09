@@ -4,9 +4,9 @@ is_owner: true
 name:
   display: Sabarish Venkataramani Malathi
   given: Sabarish
-  family: ''
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  family: Venkataramani Malathi
+  alternate: ''
+  pronunciation: ''
   pronouns: ''
 postnominals:
   - PhD
@@ -26,11 +26,9 @@ links:
   - icon: brands/github
     url: https://github.com/sabarish-vm
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
+    url: https://www.linkedin.com/in/sabarish-venkatarmani-malathi/
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://orcid.org/0000-0001-5677-0838
 
 interests:
   - Astroparticle physics
@@ -49,21 +47,26 @@ education:
       text: Download dissertation
       url: /resume.pdf
       icon: hero/arrow-down-tray
-  - degree: MSc Physics (Comology and astroparticle physics track)
+  - degree: MSc Physics
+    specialization: Comology and astroparticle physics
     institution: RWTH Aachen University
-    start: 2020-09-01
-    end: 2022-09-30
+    start: 2020
+    end: 2022
+  - degree: MSc Physics
+    institution: University of Madras
+    start: 2017
+    end: 2019
   - degree: BSc Physics
     institution: University of Madras
-    start: 2009-09-01
-    end: 2013-05-31
+    start: 2013
+    end: 2016
 
 experience:
   - role: PhD researcher
     org: University of Hamburg
     start: 2022-10-15
     end: 2026-02-28
-  - role: Master thesis
+  - role: Master thesis research
     org: TTK, RWTH Aachen University
     start: 2021-10-01
     end: 2022-09-30
@@ -79,17 +82,27 @@ skills:
         level: 4
       - label: Rust
         level: 3
+      - label: Git
+        level: 4
+      - label: Bash
+        level: 4
+      - label: Julia
+        level: 3
+        
   - name: Research & Communication
     items:
       - label: Academic Writing
         level: 4
       - label: Conference Presentations
         level: 4
-      - label: Grant Proposals
-        level: 2
+      # - label: Grant Proposals
+      #   level: 2
 
 languages:
   - name: English
+    level: 5
+    label: Native
+  - name: Tamil
     level: 5
     label: Native
   - name: German
